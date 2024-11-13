@@ -75,7 +75,7 @@ function showrecentposts(json) {
           <div style="width: 100%; margin-top: 20px;" class="season-title" id="title-season-${currentSeason}">
             <h3>Temporada ${currentSeason}</h3>
           </div>
-          <div class="season-episodes" id="season-${currentSeason}" style="display: flex; flex-wrap: wrap; gap: 10px;">
+          <div class="season-episodes" id="season-${currentSeason}" style="display:grid">
         `);
       }
     }
