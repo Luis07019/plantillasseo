@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded", function() { const generosContainer = document.getElementById("btng"); generosContainer.innerHTML = generosContainer.textContent .split(",") .map(genero => `<span class="bg-gray-700 text-sm text-white rounded-full px-2 py-1 mr-1">${genero}</span>`) .join(""); }); <
