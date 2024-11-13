@@ -1,0 +1,1 @@
+document.querySelectorAll("span.text-white").forEach(span => { const [year, month, day] = span.textContent.split("-"); if (year && month && day) { span.textContent = new Date(year, month - 1, day).toLocaleDateString("es-ES", { year: "numeric", month: "long", day: "numeric" }); } });
