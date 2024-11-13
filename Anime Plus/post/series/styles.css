@@ -17,11 +17,11 @@
   color:white;
     
   }
-  @media (max-width:768px){
+  @media (max-width:767px){
   .object-cover {object-fit: scale-down;margin-bottom:0;}
     
   .pl-10 {padding-left: 0rem;}}
-  @media (max-width: 768px){
+  @media (max-width: 767px){
     .text-3xl {
   text-align:center; !important}
     
